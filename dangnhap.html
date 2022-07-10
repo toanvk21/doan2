@@ -1,0 +1,58 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="dangnhap.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.js"integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="crossorigin="anonymous"></script>
+        <title>Đăng Nhập</title>
+    </head>
+    <script>
+        $(document).ready(function(){
+        $('#nut-login').click(function(){
+            alert('không có kết nối mạng');
+        });
+    }
+    )
+    </script>
+    <body background="ảnh/Hình-nền-vector-đẹp.jpg">
+        <div id="login">
+            <div class="logo-dn">
+                <img src="ảnh/code.gif">
+            </div>
+            <div class="login-type">
+                <div>
+                    <input type="email" placeholder="Email" id="Email">
+                </div>
+                <div>
+                    <input type="password" placeholder="Password" id="Email">
+                </div>
+            </div>
+            <div class="remember">
+                <input type="checkbox" name="remember"checked="checked">
+                <label>
+                    Nhớ Mật Khẩu
+                </label>
+            </div>
+            <button id="nut-login">
+                Đăng  Nhập
+            </button>
+            <div class="lt-1">
+                <p>Hoặc Kết Nối Với</p>
+            </div>
+            <div class="nut-lt">
+                <a href="#"><img src="https://img.icons8.com/color/48/4a90e2/facebook.png"/></a>
+                <a href="#"><img src="https://img.icons8.com/fluent/40/000000/google-logo.png"/></a>
+                <a href="#"><img src="https://img.icons8.com/color/48/4a90e2/twitter-squared.png"/></a>
+            </div>
+            <div class="lt-2">
+                Bạn chưa có tài khoản?
+                <span id="dki"><a href="đăng kí.html">Đăng kí</a></span>
+            </div>
+            <div class="lt-3">
+                <a href="#">Quên Mật Khẩu?</a>
+            </div>
+        </div>
+    </body>
+    </html>

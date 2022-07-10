@@ -1,0 +1,202 @@
+.logo5{
+    width: 60%;
+    height: 100px;
+    /* border: 1px solid; */
+    margin-left: 20%;
+    margin-top: 10px;
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.logo5 span{
+    font-size: 35px;    
+}
+.ndb{
+    width: 80%;
+    height: 2900px;
+    margin-left: 10%;
+    background-color: white;
+}
+.ndb img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
+.tieude7{
+    border: dotted;
+    width: 95%;
+    height: 160px;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+.tieude7 p{
+    margin-top: 10px;
+}
+.tieude7 p img{
+    height: 18px;
+    width: 20px;
+}
+.red a{
+    color: rgb(223, 10, 10);
+    font-size: 20px;
+    text-decoration: none;
+}
+.red a:hover{
+    text-decoration: underline;
+}
+
+.black{
+    color: black;
+    font-size: 18px;
+}
+#dschuong{
+    width: 100px;
+    height: 90px;
+}
+.nuttruoc{
+    width: 80px;
+    height: 45px;
+    background-color: rgb(23, 139, 206);
+    float: left;
+    margin-left: 400px;
+    margin-top: 30px; 
+    color: white;
+    opacity: 0.1;
+    padding-top: 10px;
+    padding-left: 8px;
+}
+.nuttruoc a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+.nuttruoc a:hover{
+    text-decoration: underline;
+}
+.nutsau{
+    width: 80px;
+    height: 45px;
+    background-color: rgb(19, 135, 202);
+    float: left;
+    margin-left: 5px;
+    margin-top: 30px;
+    color: white;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.nutsau a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+.nutsau a:hover{
+    text-decoration: underline;
+}
+.ndc{
+    width: 98%;
+    height: 1700px;
+    /* border: 1px solid; */
+    margin-top: 100px;
+    font-size: 17px;
+    margin-left: 1%;
+}
+.ndc p{
+    margin-top: 30px;
+}
+.cla{
+    text-align: center;
+    font-size: 18px;
+}
+.cla a{
+    color: blue;
+    text-decoration: none;
+}
+.cla a:hover{
+    text-decoration: underline;
+}
+.ndlt{
+    width: 60%;
+    height: 30px;
+    background-color: rgba(238, 238, 238, 0.884);
+    margin-left: 20%;
+    margin-top: 30px;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 4px;
+    color: slategray;
+}
+.ndlt1{
+    width: 100%;
+    height: 35px;
+    background-color: rgba(238, 238, 238, 0.884);
+    margin-top: 100px;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 4px;
+    color: slategray;
+}
+.nx1{
+    width: 80%;
+    height: 200px;
+    margin-left: 10%;
+    background-color: white;
+    margin-top: 10px;
+}
+.input8{
+    width: 98%;
+    height: 70px;
+    margin-left:1%;
+    padding-left: 20px;
+    font-size: 14px;
+    background-color: #eee;
+    border: 1px solid black;
+    margin-top: 30px;
+}
+@media screen and (max-width :1024px) {
+    .logo5{
+        width: 100% ;
+        margin-left: 0;
+    }
+    .ndb{
+        width: 100%;
+        margin-left: 0;
+        height: 3190px;
+    }
+    .nuttruoc{
+        margin-left: 230px;
+    }
+    .nx1{
+        width: 100%;
+        margin-left: 0;
+    }
+}
+@media screen and (max-width :600px) {
+    .logo5{
+        width: 100%;
+        font-size: 15px;
+    }
+    .logo5 span{
+        font-size: 25px;
+    }
+    .khungnho13{
+        font-size: 14px;
+    }
+    .nuttruoc{
+        margin-left: 30%;
+    }
+    .ndb{
+        height: 3730px;
+    }
+    .nx1{
+        height: 280px;
+    }
+    .panel .tieude{
+        font-size: 15px;
+    }
+}

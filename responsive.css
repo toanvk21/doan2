@@ -1,0 +1,257 @@
+@media screen and (max-width : 1024px) {
+    #logo-11 img{
+        width: 20px;
+        height: 20px;
+        margin-bottom: -5px;
+    }
+    .khung1{
+        width: 100%;
+        margin-left: 0; 
+        margin-top: 10px;
+
+    }
+    .khung2{
+        display: none;
+    }
+    .khung7{
+        display: none;
+    }
+    .nutnho{
+        width: 100%;
+        margin-left: 50px;
+        font-size: 3px;
+    }
+    .hinhquangcao1{
+        width: 100%;
+        margin: 0px;
+        height: 80px;
+    }
+    .khung8{
+        display: none;
+    }
+    .khung4{
+        width: 100%;
+        margin-left: 0;
+    }
+    .khung9{
+        width: 100%;
+        margin-left: 0;
+    }
+    .khung10{
+        width: 100%;
+        margin-left: 0;
+    }
+    .khung11{
+        display: none;
+    }
+    .khung12{
+        width: 100%;
+        margin-left: 0;
+    }
+    .anhnendep{
+        display: none;
+    }
+    .khung13{
+        display: none;
+    }
+    #menu>ul>li{
+        width: 80px;
+    }
+    #menu>ul>li:hover{
+        width: 80px;
+    }
+    #menu a{
+        font-size: 11px;
+    }
+    .danhsachtruyen{
+        width: 200px;
+    }
+    .danhsachtruyen5{
+        width: 200px;
+    }
+    .input{
+        margin-left: 5px;
+        width: 160px;
+    }
+    .khung14{
+        width: 100%;
+    }
+    .khungcuoi{
+        height: 600px;
+    }
+    .khungcuoi1{
+        width: 100%;
+        margin: 0;
+        height: 150px;
+    }
+    .span5 a{
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    .khungcuoi2{
+        margin-left: 0px;
+        width: 100%;
+        height: 180px;
+    }
+    .khungcuoi2 p{
+        font-size: 18px;
+    }
+    .khungcuoi3{
+        width: 100%;
+        margin-left: 10px;
+    }
+    .khungcuoi3 p{
+        font-size: 22px;
+        padding-left: 0;
+    }
+    .span6 a{
+        font-size: 18px;
+    }
+    .khungcuoi3 img{
+        padding-left: 300px;
+    }
+}
+@media screen and (max-width : 600px) {    
+#menu>ul>li{
+    font-size: 9px;
+}
+#menu ul{
+    height: 100px;
+}
+.danhsachtruyen{
+    width: 200px;
+}
+.danhsachtruyen5{
+    width: 200px;
+}
+.input{
+    float: right;
+    width: 200px;
+    margin-right: 30%;
+}
+.nutan{
+    float: right;
+}    
+.khung1{
+    width: 100%;
+    height:320px ;
+}
+.tieude1{
+    font-size: 13px;
+}
+.nutnho a{
+    width: 70px;
+    font-size: 10px;
+    margin-left: 5px;
+    padding-top: 10px;
+    float: left;
+    position: relative;
+}
+.khunganh img{
+    width: 100%;
+    height: 100%;
+}
+.anhtruyen{
+    width: 25%;
+    margin-left: 30px;
+    height: 220px;
+}
+.chutieude a{
+    font-size: 10px;
+}
+.khung4{
+    width: 100%;
+    height:800px ;
+}
+.zed1{
+    width: 40%;
+    text-align: center;
+    /* border: 1px solid; */
+    margin-left: 27px;
+    height: 180px;
+}
+.zed1 img{
+    height:65% ;
+}
+.zed1 a{
+    font-size: 13px;
+}
+.xemthem a{ 
+    width:80px ;
+    margin-left: 200px;
+    color: black;
+    background-color: green;
+}
+.xemthem b{
+   text-align: center;
+   font-size: 15px;
+}
+.noidung9 b{
+    font-size: 10px;
+}
+.noidung9 span{
+    font-size: 10px;
+}
+.spanleft{
+    margin-top: 3px;
+}
+.spanmid{
+    margin-right: 10px;
+}
+.khung10{
+    height:1220px;
+}
+.khung12{
+    margin-top: 20px;
+}
+.phainho{
+    margin-top:5px;
+    /* border: 1px solid; */
+}
+.phainho:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+}
+.phainhophai a{
+    font-size: 12px;
+}
+.chutieude{
+    height: 60px;
+}
+.chutieude a{
+    font-size: 9px;
+}
+.khungcuoi{
+    height: 600px;
+}
+.khungcuoi1{
+    width: 100%;
+    margin: 0;
+    height: 150px;
+}
+.span5 a{
+    font-size: 15px;
+    margin-left: 10px;
+}
+.khungcuoi2{
+    margin-left: 0px;
+    width: 100%;
+    height: 250px;
+}
+.khungcuoi2 p{
+    font-size: 18px;
+}
+.khungcuoi3{
+    width: 100%;
+    margin-left: 10px;
+}
+.khungcuoi3 p{
+    font-size: 22px;
+    padding-left: 0;
+}
+.span6 a{
+    font-size: 18px;
+}
+.khungcuoi3 img{
+    padding-left: 180px;
+}
+}

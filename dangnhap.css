@@ -1,0 +1,155 @@
+#login{
+    width: 450px;
+    height: 550px;
+    position: absolute;
+    border: 1px solid greenyellow;
+    background-color:rgba(0, 0, 0, 0.5);
+    margin: 1% 30%;
+}
+.logo-dn{
+    width: 60%;
+    height:80px;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+.logo-dn img{
+    width: 100%;
+    height: 100%;
+}
+.login-type{
+    width: 100%;
+    height: 75px;
+    margin-top: 10px;
+}
+/* #input{
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+} */
+#Email{
+    width: 80%;
+    height: 35px;
+    margin-top: 7px;
+    margin-left: 9%;
+    background-color:rgba(0, 0, 0, 0.5) ;
+    color: white;
+    border-radius: 5px;
+}
+#Email:hover{
+    background-color: white;
+    color: black;
+}
+.remember{
+    width: 100%;
+    height: 20px;
+    color: white;
+    margin-top: 40px;
+    margin-left: 35px;
+}
+.remember input{
+    width: 15px;
+    height: 15px;
+}
+.remember label{
+    margin-left: 5px;
+}
+#nut-login{
+    background-color:black;
+    position: absolute;
+    width: 82%;
+    height: 10%;
+    margin-left: 9%;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 24px;
+    border: 4px solid cornflowerblue;
+    color: cornflowerblue;
+    opacity: 0.4;
+}
+#nut-login:hover{
+    background-color: cornflowerblue;
+    color: #fff;
+    opacity: 1;
+}
+#nut-login1{
+    background-color:black;
+    position: absolute;
+    width: 82%;
+    height: 10%;
+    margin-left: 9%;
+    margin-top: 100px;
+    border-radius: 10px;
+    font-size: 24px;
+    border: 4px solid cornflowerblue;
+    color: cornflowerblue;
+    opacity: 0.4;
+}
+#nut-login1:hover{
+    background-color: cornflowerblue;
+    color: #fff;
+    opacity: 1;
+}
+.lt-1{
+    width: 99%;
+    height: 20PX;
+    border: 1px white;
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 20px;
+}
+.nut-lt{
+    width: 60%;
+    height: 40px;
+    margin-left: 20%;
+    margin-top: 15px;
+}
+.nut-lt img{
+    width: 25%;
+    height: 100%;
+    margin-left:15px;
+}
+#dki a{
+    color: cornflowerblue;
+    text-decoration: none;
+}
+#dki a:hover{
+    text-decoration: underline;
+}
+.lt-2{
+    width: 99%;
+    height: 20px;
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+}
+.lt-3{
+    width: 99%;
+    height: 20px;
+    margin-top: 5px;
+    text-align: center;
+
+}
+.lt-3 a{
+    text-align: center;
+    color: cornflowerblue;
+    text-decoration: none;
+}
+.lt-3 a:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width:1024px) {
+    #login{
+        width: 54%;
+        margin-left: 22%;
+        height: 520px;
+    }
+}
+@media screen and (max-width:600px) {
+    #login{
+        width:80% ;
+        margin-left:8%;
+        height: 520px;
+        margin-top: 25px;
+    }
+}
